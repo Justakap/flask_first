@@ -2,5 +2,3 @@ Flask
 Gunicorn
 PyPDF2==1.26.0
 prettytable==2.2.0
-re
-json
