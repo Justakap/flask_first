@@ -1,7 +1,7 @@
 from flask import Flask
 from prettytable import PrettyTable
 import re
-from PyPDF2 import PdfReader
+# from PyPDF2 import PdfReader
 import json
 
 app = Flask(__name__)
