@@ -52,20 +52,20 @@ name = name_match.group(1).strip() if name_match else ''
 pattern = r"(.+?) (\w+-\d+) (\d+) (\d+) (\w+\+*)"
 matches = re.findall(pattern, text)
 
-table_data = [{'Subject Name': match[0], 'Subject Code': match[1],
-               'Internal Marks': match[2], 'External Marks': match[3],
-               'Total Marks': int(match[2]) + int(match[3]), 'Grade': match[4]} for match in matches]
+table_data = [{'Subject_Name': match[0], 'Subject_Code': match[1],
+               'Internal_Marks': match[2], 'External_Marks': match[3],
+               'Total_Marks': int(match[2]) + int(match[3]), 'Grade': match[4]} for match in matches]
 
-table_data = sorted(table_data, key=lambda x: x['Total Marks'], reverse=True)
+table_data = sorted(table_data, key=lambda x: x['Total_Marks'], reverse=True)
 
 
-final_marks = sum(row['Total Marks'] for row in table_data)
+final_marks = sum(row['Total_Marks'] for row in table_data)
 total_rows = len(table_data)
 
 
 data = {
     "Name": name,
-    "Roll No": roll_no,
+    "Roll_No": roll_no,
     "Result": remark,
     "Percentage": final_marks / total_rows,
     "Subjects": table_data
