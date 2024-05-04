@@ -1,11 +1,12 @@
 from flask import Flask
 from prettytable import PrettyTable
 import re
+from flask_cors import CORS
 # from PyPDF2 import PdfReader
 import json
 
 app = Flask(__name__)
-
+CORS(app)
 text = """RAJASTHAN  TECHNICAL  UNIVERSITY
 KOTA
 B. Tech  II  SEM  MAIN  EXAM   2025  (GRADING)
@@ -72,6 +73,11 @@ data = {
 
 json_data = json.dumps(data, indent=4)
 
-@app.route('/data')
+
+@app.route('/data', methods=['GET'])
 def my_data():
     return json_data
+
+
+# if __name__ == '__main__':
+#     app.run()

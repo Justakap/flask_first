@@ -1,0 +1,88 @@
+{
+    "Name": "ANANT KHANDELWAL",
+    "Roll No": "24ESKCS450",
+    "Result": "PASS",
+    "Percentage": 83.1,
+    "Subjects": [
+        {
+            "Subject Name": "Human Values Activities And Sports",
+            "Subject Code": "2FY1-23",
+            "Internal Marks": "54",
+            "External Marks": "40",
+            "Total Marks": 94,
+            "Grade": "A++"
+        },
+        {
+            "Subject Name": "Human Values",
+            "Subject Code": "2FY1-05",
+            "Internal Marks": "25",
+            "External Marks": "63",
+            "Total Marks": 88,
+            "Grade": "A++"
+        },
+        {
+            "Subject Name": "Computer Aided Machine Drawing",
+            "Subject Code": "2FY3-29",
+            "Internal Marks": "51",
+            "External Marks": "34",
+            "Total Marks": 85,
+            "Grade": "A"
+        },
+        {
+            "Subject Name": "Engineering Chemistry Lab",
+            "Subject Code": "2FY2-21",
+            "Internal Marks": "48",
+            "External Marks": "36",
+            "Total Marks": 84,
+            "Grade": "A"
+        },
+        {
+            "Subject Name": "Basic Civil Engineering Lab",
+            "Subject Code": "2FY3-27",
+            "Internal Marks": "49",
+            "External Marks": "35",
+            "Total Marks": 84,
+            "Grade": "A++"
+        },
+        {
+            "Subject Name": "Engineering Mathematics-II",
+            "Subject Code": "2FY2-01",
+            "Internal Marks": "22",
+            "External Marks": "61",
+            "Total Marks": 83,
+            "Grade": "A"
+        },
+        {
+            "Subject Name": "Engineering Chemistry",
+            "Subject Code": "2FY2-03",
+            "Internal Marks": "25",
+            "External Marks": "58",
+            "Total Marks": 83,
+            "Grade": "A++"
+        },
+        {
+            "Subject Name": "Manufacturing Practices Workshop",
+            "Subject Code": "2FY3-25",
+            "Internal Marks": "51",
+            "External Marks": "32",
+            "Total Marks": 83,
+            "Grade": "A"
+        },
+        {
+            "Subject Name": "Basic Mechanical Engineering",
+            "Subject Code": "2FY3-07",
+            "Internal Marks": "27",
+            "External Marks": "52",
+            "Total Marks": 79,
+            "Grade": "A+"
+        },
+        {
+            "Subject Name": "Basic Civil Engineering",
+            "Subject Code": "2FY3-09",
+            "Internal Marks": "27",
+            "External Marks": "41",
+            "Total Marks": 68,
+            "Grade": "B+"
+        }
+    ]
+}
