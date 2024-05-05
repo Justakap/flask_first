@@ -5,3 +5,4 @@ PrettyTable
 flask_cors
 python-dotenv
 flask
+requests
