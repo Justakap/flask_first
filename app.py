@@ -117,5 +117,5 @@ def receive_data():
     return json_data, 200
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
