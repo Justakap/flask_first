@@ -22,7 +22,7 @@ def takeCommand():
 
 
 print("Listening")
-speaker.Speak("Hello Aaditya Sir ! How may i help you")
+speaker.Speak("Hello Sir ! How may i help you")
 text = takeCommand()
 sites = [
     ["Youtube", "https://www.youtube.com"],
